@@ -1,0 +1,45 @@
+.thank-you {
+  padding: 60px 20px;
+  background-color: #ff77e1; /* Bright pink background for the thank you page */
+  color: #001f3f; /* Dark text for contrast */
+  text-align: center;
+}
+
+.thank-you h2 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.thank-you p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #001f3f; /* Dark text for readability */
+}
+
+.thank-you-graphic {
+  margin: 20px 0;
+}
+
+.thank-you-graphic img {
+  width: 100%;
+  max-width: 300px; /* Adjust size as needed */
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.back-button {
+  display: inline-block;
+  background-color: #001f3f; /* Dark background for the button */
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.back-button:hover {
+  background-color: #e66b97; /* Lighter pink on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
